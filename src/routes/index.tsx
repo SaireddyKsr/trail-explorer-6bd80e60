@@ -479,7 +479,7 @@ function VenueSection() {
   const [copied, setCopied] = useState(false);
   const sectionRef = useRef<HTMLElement>(null);
   const venueName = "Sri Sai Baba Kalyana Mandapam, Bethamcherla";
-  const mapsUrl = "https://www.google.com/maps/search/?api=1&query=15.461459%2C78.157655";
+  const mapsUrl = "https://maps.app.goo.gl/dh1AHLzq58BtKHkA7?g_st=iw";
 
   useEffect(() => {
     const section = sectionRef.current;
@@ -528,7 +528,7 @@ function VenueSection() {
         <div className="venue-map ceremonial-reveal">
           <iframe
             title="Map showing Sri Sai Baba Kalyana Mandapam, Bethamcherla"
-            src="https://www.google.com/maps?q=15.461459%2C78.157655&output=embed"
+            src="https://www.google.com/maps?q=Sri+Sai+Baba+Kalyana+Mandapam,+Bethamcherla,+Andhra+Pradesh+518599&output=embed"
             width="100%"
             height="320"
             loading="lazy"
