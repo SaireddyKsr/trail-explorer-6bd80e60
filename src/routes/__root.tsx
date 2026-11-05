@@ -81,7 +81,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Nanubala Kunadruthi & Surya Teja — Wedding Invitation" },
       {
         name: "description",
-        content: "The wedding invitation of Nanubala Kunadruthi and Surya Teja at Shirdi Sai Convention Hall, Bethamcherla.",
+        content: "The wedding invitation of Nanubala Kunadruthi and Surya Teja at Sri Sai Baba Kalyana Mandapam, Bethamcherla.",
       },
       { property: "og:title", content: "Nanubala Kunadruthi & Surya Teja — Wedding Invitation" },
       {
